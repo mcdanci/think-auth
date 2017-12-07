@@ -13,7 +13,7 @@ class Phinx
         COMMENT = 'comment',
         TABLE_ENGINE = 'engine',
         TABLE_COLLATION = 'collation';
-    //TABLE_SIGNED = self::SIGNED;
+        //TABLE_SIGNED = self::SIGNED;
 
     const
         TABLE_ENGINE_INNO = 'InnoDB',
