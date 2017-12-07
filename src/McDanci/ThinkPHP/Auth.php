@@ -20,7 +20,7 @@ use think\Config;
 use think\Session;
 
 /**
- * Class 权限认证
+ * Access right authentication
  * @package McDanci\ThinkPHP
  *
  * @todo Check all

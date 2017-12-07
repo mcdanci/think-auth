@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5eb8b5b2498e301f3c33a3c3b0855036",
+    "content-hash": "677003f1bf3547ef47dc137cbb9d8334",
     "packages": [
         {
             "name": "topthink/framework",
@@ -99,7 +99,233 @@
             "time": "2017-05-27T06:58:09+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "5ini99/think-auth",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/5ini99/think-auth.git",
+                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/5ini99/think-auth/f9f20d18b5e400d67312a7ca75e4dc35be630a4c.zip",
+                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\auth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "xiaobo.sun",
+                    "email": "xiaobo.sun@qq.com"
+                }
+            ],
+            "description": "auth package for thinkphp5",
+            "homepage": "https://github.com/5ini99/think-auth",
+            "time": "2016-11-02T06:26:09+00:00"
+        },
+        {
+            "name": "lixy/think-auth",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/believe1210/think-auth.git",
+                "reference": "c376fd01b7d73361151cc4dd5a17fe234d251457"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/believe1210/think-auth/c376fd01b7d73361151cc4dd5a17fe234d251457.zip",
+                "reference": "c376fd01b7d73361151cc4dd5a17fe234d251457",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\auth\\": ""
+                },
+                "files": [
+                    "Auth.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "lixy",
+                    "email": "lixy@lixy.cc"
+                }
+            ],
+            "description": "ThinkPHP5 auth Package.",
+            "time": "2017-11-22T09:09:53+00:00"
+        },
+        {
+            "name": "niklaslu/think-authentication",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/niklauslu/think-authentication.git",
+                "reference": "ffc332a7faee088ad705ddb0636f0ca7e6db1813"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/niklauslu/think-authentication/ffc332a7faee088ad705ddb0636f0ca7e6db1813.zip",
+                "reference": "ffc332a7faee088ad705ddb0636f0ca7e6db1813",
+                "shasum": ""
+            },
+            "require": {
+                "topthink/framework": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "niklaslu\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "niklaslu",
+                    "email": "332553882@qq.com"
+                }
+            ],
+            "description": "thinkphp authentication",
+            "time": "2016-11-07T08:17:17+00:00"
+        },
+        {
+            "name": "qsnh/think-auth",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Qsnh/think-auth.git",
+                "reference": "ae2cac99d70c06c293d5324b18b7ca34aa721b11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Qsnh/think-auth/ae2cac99d70c06c293d5324b18b7ca34aa721b11.zip",
+                "reference": "ae2cac99d70c06c293d5324b18b7ca34aa721b11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "topthink/think-helper": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Qsnh\\think\\Auth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "qsnh",
+                    "email": "616896861@qq.com"
+                }
+            ],
+            "description": "Auth Manager for Thinkphp5",
+            "keywords": [
+                "auth",
+                "thinkphp5"
+            ],
+            "time": "2016-12-01T02:33:52+00:00"
+        },
+        {
+            "name": "topthink/think-helper",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-helper.git",
+                "reference": "0c99dc625b0d2d4124e1b6ca15a3ad6f0125963f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-helper/0c99dc625b0d2d4124e1b6ca15a3ad6f0125963f.zip",
+                "reference": "0c99dc625b0d2d4124e1b6ca15a3ad6f0125963f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "think\\helper\\": "src"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "description": "The ThinkPHP5 Helper Package",
+            "time": "2017-04-05T07:15:37+00:00"
+        },
+        {
+            "name": "topthink/think-migration",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/top-think/think-migration.git",
+                "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-migration/8e489f8d38a39876690c0e00fcf9a54ae92c4d3d.zip",
+                "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "topthink/framework": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phinx\\": "phinx/src/Phinx",
+                    "think\\migration\\": "src"
+                },
+                "files": [
+                    "src/config.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "yunwuxin",
+                    "email": "448901948@qq.com"
+                }
+            ],
+            "time": "2017-03-31T06:33:23+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

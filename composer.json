@@ -1,5 +1,17 @@
 {
   "require": {
     "topthink/framework": "~5.0.0"
+  },
+  "require-dev": {
+    "topthink/think-migration": "^1.1",
+    "lixy/think-auth": "^1.0",
+    "qsnh/think-auth": "^0.2.2",
+    "5ini99/think-auth": "^1.0",
+    "niklaslu/think-authentication": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
   }
 }
