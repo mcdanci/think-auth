@@ -7,3 +7,4 @@ Documentation List:
 - Check `qsnh/think-auth`
 - Check `5ini99/think-auth`
 - Check `niklaslu/think-authentication`
+- Check license

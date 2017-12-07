@@ -1,4 +1,19 @@
 {
+  "name": "mcdanci/think-auth",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ThinkPHP",
+      "homepage": "http://thinkphp.cn/",
+      "role": "Official"
+    },
+    {
+      "name": "McDanci"
+    }
+  ],
+  "support": {
+    "docs": "http://www.thinkphp.cn/topic/4029.html"
+  },
   "require": {
     "topthink/framework": "~5.0.0"
   },

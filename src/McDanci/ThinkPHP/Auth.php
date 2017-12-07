@@ -6,10 +6,9 @@
  * @author bug <729479553@qq.com>
  * @link http://www.thinkphp.cn/topic/46046.html
  *
- * @copyright 2011, ThinkPHP <http://thinkphp.cn>. WE CAN DO IT JUST THINK IT. All rights reserved.
+ * @copyright 2011, ThinkPHP. All rights reserved. *WE CAN DO IT JUST THINK IT*
  * @author luofei614 <weibo.com/luofei614>
  * @link https://github.com/top-think/thinkphp/commits/master/ThinkPHP/Library/Think/Auth.class.php // TODO: 比對 3.1 的版本，記錄在 CHANGELOG.md 中後移除本條
- * @link http://www.thinkphp.cn/topic/4029.html
  */
 namespace McDanci\ThinkPHP;
 
